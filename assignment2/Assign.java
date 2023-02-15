@@ -10,7 +10,7 @@ public class Assign{
         int nw= obj.nextInt();
         System.out.print("What is total weight of the waste produced every 1 week: ");
         float tw= obj.nextFloat();
-        System.out.print("Is Electric Motor being replaced every 18 days: ");
+        System.out.print("Is Electric Motor being replaced every 18 days(press y for yes & n for no): ");
         String yesorno="";
         char er= obj.next().charAt(0);
         if(er == 'y')
@@ -21,6 +21,7 @@ public class Assign{
         {
              yesorno= "no";
         }
+        
       
         System.out.print("What is core temperature of Nuclear Reactor? ");
         double ct= obj.nextDouble();
